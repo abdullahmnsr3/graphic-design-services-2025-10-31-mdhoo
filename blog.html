@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DesignPro Blog - Graphic Design Insights, Trends, and Creative Tips">
+    <meta name="keywords" content="graphic design blog, design trends, creative tips, design inspiration, branding insights">
+    <meta name="author" content="DesignPro">
+    <meta property="og:title" content="DesignPro Blog - Design Insights & Creative Tips">
+    <meta property="og:description" content="Discover the latest graphic design trends, tips, and insights from our creative experts">
+    <meta property="og:type" content="website">
+    <title>Blog | DesignPro - Graphic Design Insights & Trends</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .animate-fade-in {
+            animation: fadeIn 0.6s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .card-hover {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn-primary:active {
+            transform: scale(0.98);
+        }
+        
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Header & Navigation -->
+    <header class="w-full">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+            <!-- Logo -->
+            <a href="https://abdullahmnsr3.github.io/graphic-design-services-2025-10-31-mdhoo" class="flex items-center space-x-2 hover:opacity-80 transition-opacity duration-300">
+                <div class="w-10 h-10 bg-gradient-to-br from-purple-600 to-pink-600 rounded-lg flex items-center justify-center">
+                    <i class="fas fa-palette text-white text-lg"></i>
+                </div>
+                <span class="text-xl font-bold gradient-text">DesignPro</span>
+            </a>
+
+            <!-- Back Link -->
+            <a href="https://abdullahmnsr3.github.io/graphic-design-services-2025-10-31-mdhoo" class="text-gray-700 hover:text-purple-600 transition-colors duration-300 font-medium flex items-center space-x-2">
+                <i class="fas fa-arrow-left"></i>
+                <span>Back</span>
+            </a>
+        </nav>
+    </header>
+
+    <!-- Blog Hero Section -->
+    <section class="relative py-16 overflow-hidden bg-gradient-to-br from-white via-purple-50 to-pink-50">
+        <!-- Background Elements -->
+        <div class="absolute top-0 left-0 w-96 h-96 bg-purple-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
+        <div class="absolute top-0 right-0 w-96 h-96 bg-pink-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse" style="animation-delay: 2s;"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center animate-fade-in">
+                <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight mb-6">
+                    <span class="gradient-text">Our Blog</span>
+                </h1>
+                <p class="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-light">
+                    Explore insights, trends, and expert tips from our creative team. Stay updated on the latest in graphic design, branding strategies, and visual innovation.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Purpose Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl flex items-center justify-center mb-4 mx-auto">
+                        <i class="fas fa-lightbulb text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Design Insights</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Discover deep dives into design principles, creative methodologies, and expert analysis of industry trends shaping the visual landscape.
+                    </p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl flex items-center justify-center mb-4 mx-auto">
+                        <i class="fas fa-trending-up text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Latest Trends</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Stay ahead of the curve with our comprehensive coverage of emerging design trends, color palettes, typography innovations, and visual movements.
+                    </p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl flex items-center justify-center mb-4 mx-auto">
+                        <i class="fas fa-graduation-cap text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Creative Tips</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Learn practical techniques, design hacks, and best practices from our experienced designers to elevate your creative work and projects.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Blog Post -->
+    <section class="py-16 bg-gradient-to-br from-purple-50 to-pink-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold mb-12 tracking-tight">Featured Post</h2>
+            
+            <div class="card-hover bg-white border-2 border-gray-100 rounded-2xl overflow-hidden hover:border-purple-300 shadow-lg">
+                <!-- Featured Image -->
+                <div class="relative h-80 bg-gradient-to-br from-purple-600 to-pink-600 overflow-hidden">
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <i class="fas fa-image text-white text-8xl opacity-20"></i>
+                    </div>
+                </div>
+
+                <!-- Featured Content -->
+                <div class="p-8 sm:p-12">
+                    <div class="flex items-center space-x-4 mb-4">
+                        <span class="inline-block px-4 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-semibold">Featured</span>
+                        <span class="text-sm text-gray-500 flex items-center space-x-2">
+                            <i class="fas fa-calendar"></i>
+                            <span>October 31, 2025</span>
+                        </span>
+                    </div>
+
+                    <h3 class="text-3xl sm:text-4xl font-bold mb-6 tracking-tight leading-tight">
+                        The Complete Guide to Modern Graphic Design Trends in 2025
+                    </h3>
+
+                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                        Discover the transformative graphic design trends reshaping 2025. This comprehensive guide explores seven pivotal movements: bold saturated color palettes capturing attention, experimental organic typography breaking traditional rules, and maximalism replacing minimalism with layered complexity. Sustainable design practices reflect environmental consciousness, while AI-assisted tools amplify designer creativity without replacing human expertise. Inclusive and accessible design ensures broader audience reach, and immersive 3D elements create dynamic brand experiences. These trends collectively represent a cultural shift toward authenticity, sustainability, and innovation. Professional designers leverage these approaches strategically, balancing cutting-edge techniques with timeless principles to create compelling visual solutions that resonate emotionally with modern audiences.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
+                        <a href="https://abdullahmnsr3.github.io/graphic-design-services-2025-10-31-mdhoo/blog/the-complete-guide-to-modern-graphic-design-trends.html" class="btn-primary px-8 py-3 text-white font-semibold rounded-lg inline-block">
+                            Read Full Article
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        <div class="flex items-center space-x-4 text-gray-600">
+                            <span class="flex items-center space-x-2">
+                                <i class="fas fa-clock"></i>
+                                <span class="text-sm">8 min read</span>
+                            </span>
+                            <span class="flex items-center space-x-2">
+                                <i class="fas fa-user"></i>
+                                <span class="text-sm">By DesignPro Team</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Posts Grid -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold mb-12 tracking-tight">Latest Articles</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Blog Post Card 1 -->
+                <div class="card-hover bg-white border-2 border-gray-100 rounded-2xl overflow-hidden hover:border-purple-300">
+                    <div class="relative h-48 bg-gradient-to-br from-purple-500 to-pink-500 overflow-hidden">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <i class="fas fa-image text-white text-6xl opacity-20"></i>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <span class="text-xs font-semibold text-purple-600 uppercase tracking-wide">Design Tips</span>
+                        <h3 class="text-xl font-bold mt-3 mb-3 line-clamp-2">Coming Soon</h3>
+                        <p class="text-gray-600 text-sm mb-4 line-clamp-2">
+                            More insightful articles coming soon. Check back regularly for fresh content on design trends and creative inspiration.
+                        </p>
+                        <div class="flex items-center justify-between text-xs text-gray-500">
+                            <span>Future Post</span>
+                            <span>Stay Tuned</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post Card 2 -->
+                <div class="card-hover bg-white border-2 border-gray-100 rounded-2xl overflow-hidden hover:border-purple-300">
+                    <div class="relative h-48 bg-gradient-to-br from-purple-500 to-pink-500 overflow-hidden">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <i class="fas fa-image text-white text-6xl opacity-20"></i>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <span class="text-xs font-semibold text-purple-600 uppercase tracking-wide">Branding</span>
+                        <h3 class="text-xl font-bold mt-3 mb-3 line-clamp-2">Coming Soon</h3>
+                        <p class="text-gray-600 text-sm mb-4 line-clamp-2">
+                            More insightful articles coming soon. Check back regularly for fresh content on design trends and creative inspiration.
+                        </p>
+                        <div class="flex items-center justify-between text-xs text-gray-500">
+                            <span>Future Post</span>
+                            <span>Stay Tuned</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post Card 3 -->
+                <div class="card-hover bg-white border-2 border-gray-100 rounded-2xl overflow-hidden hover:border-purple-300">
+                    <div class="relative h-48 bg-gradient-to-br from-purple-500 to-pink-500 overflow-hidden">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <i class="fas fa-image text-white text-6xl opacity-20"></i>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <span class="text-xs font-semibold text-purple-600 uppercase tracking-wide">Web Design</span>
+                        <h3 class="text-xl font-bold mt-3 mb-3 line-clamp-2">Coming Soon</h3>
+                        <p class="text-gray-600 text-sm mb-4 line-clamp-2">
+                            More insightful articles coming soon. Check back regularly for fresh content on design trends and creative inspiration.
+                        </p>
+                        <div class="flex items-center justify-between text-xs text-gray-500">
+                            <span>Future Post</span>
+                            <span>Stay Tuned</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Newsletter Subscription -->
+            <div class="mt-16 bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 sm:p-12 text-center text-white">
+                <h3 class="text-2xl sm:text-3xl font-bold mb-4">Stay Updated</h3>
+                <p class="text-purple-100 mb-8 max-w-2xl mx-auto leading-relaxed">
+                    Subscribe to our newsletter and get the latest design trends, creative tips, and industry insights delivered straight to your inbox.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
+                    <input type="email" placeholder="Your email address" class="flex-1 px-6 py-3 rounded-lg text-gray-900 font-medium placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-purple-300">
+                    <button class="px-8 py-3 bg-white text-purple-600 font-bold rounded-lg hover:bg-gray-100 transition-colors duration-300">
+                        Subscribe
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="relative py-24 overflow-hidden">
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1561070791-2526d30994b5?w=1200&h=600&fit=crop'); opacity: 0.3;"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-purple-900 via-purple-800 to-pink-900"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center">
+                <h2 class="text-4xl md:text-5xl font-bold text-white mb-6 tracking-tight">
+                    Ready to Transform Your Brand?
+                </h2>
+                <p class="text-xl text-purple-100 max-w-2xl mx-auto mb-8 leading-relaxed">
+                    Let's create something extraordinary together. Our design team is ready to bring your vision to life with stunning visuals that make an impact.
+                </p>
+                <a href="https://abdullahmnsr3.github.io/graphic-design-services-2025-10-31-mdhoo" class="inline-block bg-white text-purple-900 px-8 py-4 font-bold rounded-lg hover:scale-105 hover:shadow-2xl transition-all duration-300">
+                    Start Your Design Journey Today
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <!-- Brand Column -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-6">
+                        <div class="w-10 h-10 bg-gradient-to-br from-purple-600 to-pink-600 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-palette text-white text-lg"></i>
+                        </div>
+                        <span class="text-xl font-bold text-white">DesignPro</span>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed mb-6">
+                        Transforming brands through exceptional graphic design and creative excellence since 2012.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-purple-600 transition-colors duration-300" aria-label="Facebook">
+                            <i class="fab fa-facebook-f text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-purple-600 transition-colors duration-300" aria-label="Twitter">
+                            <i class="fab fa-twitter text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-purple-600 transition-colors duration-300" aria-label="Instagram">
+                            <i class="fab fa-instagram text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-purple-600 transition-colors duration-300" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in text-white"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Services Column -->
+                <div>
+                    <h3 class="text-white font-bold text-lg mb-6">Services</h3>
+                    <ul class="space-y-3">
+                        <li><a href="https://abdullahmnsr3.github.io/graphic-design-services-2025-10-31-mdhoo#features" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Logo Design</a></li>
+                        <li><a href="https://abdullahmnsr3.github.io/graphic-design-services-2025-10-31-mdhoo#features" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Branding</a></li>
+                        <li><a href="https://abdullahmnsr3.github.io/graphic-design-services-2025-10-31-mdhoo#features" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Web Design</a></li>
+                        <li><a href="https://abdullahmnsr3.github.io/graphic-design-services-2025-10-31-mdhoo#features" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Print Design</a></li>
+                        <li><a href="https://abdullahmnsr3.github.io/graphic-design-services-2025-10-31-mdhoo#features" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Marketing Materials</a></li>
+                    </ul>
+                </div>
+
+                <!-- Company Column -->
+                <div>
+                    <h3 class="text-white font-bold text-lg mb-6">Company</h3>
+                    <ul class="space-y-3">
+                        <li><a href="https://abdullahmnsr3.github.io/graphic-design-services-2025-10-31-mdhoo#about" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">About Us</a></li>
+                        <li><a href="https://abdullahmnsr3.github.io/graphic-design-services-2025-10-31-mdhoo#testimonials" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="blog.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Blog</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Careers</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Legal Column -->
+                <div>
+                    <h3 class="text-white font-bold text-lg mb-6">Legal</h3>
+                    <ul class="space-y-3">
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Cookie Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="border-t border-gray-800 pt-12 mb-8">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-envelope text-white"></i>
+                        </div>
+                        <div>
+                            <p class="text-gray-400 text-sm">Email</p>
+                            <a href="mailto:test@test.com" class="text-white font-semibold hover:text-purple-400 transition-colors duration-300">test@test.com</a>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-phone text-white"></i>
+                        </div>
+                        <div>
+                            <p class="text-gray-400 text-sm">Phone</p>
+                            <a href="tel:+1234567890" class="text-white font-semibold hover:text-purple-400 transition-colors duration-300">+1 (234) 567-890</a>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-map-marker-alt text-white"></i>
+                        </div>
+                        <div>
+                            <p class="text-gray-400 text-sm">Location</p>
+                            <p class="text-white font-semibold">123 Design Street, Creative City, CC 12345</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-center md:text-left mb-4 md:mb-0">
+                    &copy; 2025 DesignPro. All rights reserved.
+                </p>
+                <div class="flex space-x-6">
+                    <a href="privacy.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300 text-sm">Privacy Policy</a>
+                    <a href="terms.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300 text-sm">Terms of Service</a>
+                    <a href="blog.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300 text-sm">Blog</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
